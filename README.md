@@ -1,4 +1,3 @@
-# Potato_Diseases_Detection_Uisng_CNN
 # 🍃 Potato Leaf Disease Detection Web App
 
 A full-stack machine learning web application that identifies potato plant diseases from leaf images and provides actionable remedies. Powered by TensorFlow and FastAPI with an interactive drag-and-drop user interface.
