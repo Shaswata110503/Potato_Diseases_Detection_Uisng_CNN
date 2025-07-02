@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Potato Disease Detection</title>
+    <link rel="stylesheet" href="static/style2.css">
+    <script src="static/new.js" defer></script>
+</head>
+<body>
+    
+    <div id="container">
+        <div id="description">
+            DESCRIPTION: As this model is build with CNN..Please give only potato plant picture as input..
+        </div>
+        <div id="welcome-screen">
+            <h1>Welcome to Shaswata's ML Project</h1>
+            <button id="ok-button">GO</button>
+        </div>
+        <div id="disclaimer">DISCLAIMER : This Machine learning model is made with Convolutional Neural Network(CNN).This Model was trained only on potato leaf images, so it has never seen non-potato images during training. Machine learning models, especially CNN don't know when they're wrong unless they’re explicitly taught to detect out-of-distribution (OOD) inputs. </div>
+    
+        <!-- Main App UI -->
+        <div id="main-ui" style="display: none;">
+            <h1>🟢 Potato Disease Classifier</h1>
+            <div id="drop-area">
+                <div id="drop">
+                    <p><b>Drag & Drop an Image Here</b></p>
+                </div>
+                <input type="file" id="fileElem" accept="image/*">
+                <label class="button" for="fileElem">Or select an image</label>
+            </div>
+            <div id="preview"></div>
+            <div id="result"></div>
+        </div>
+    </div>
+    </body>
+</html>

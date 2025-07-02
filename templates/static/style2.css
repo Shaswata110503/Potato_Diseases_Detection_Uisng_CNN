@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    
+}
+#container{
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 96vh;
+    width: auto;
+    background: rgb(241, 238, 193);
+    border-radius: 15px;
+    box-shadow: 0;
+    padding: 5px;
+    
+}
+#drop-area {
+    border: 3px dashed #4caf50;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+    width: 400px;
+    background-color: #e8e8e8;
+    cursor: pointer;
+    background-image: url('potaimg.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#drop-area.hover {
+    background-color: #e0ffe0;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #07590a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#fileElem {
+    display: none;
+}
+
+#preview img {
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+#result {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#welcome-screen {
+    text-align: center;
+    margin-top: 1rem;
+    
+    
+}
+
+#welcome-screen h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#welcome-screen button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    background-color: #47aa4b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#welcome-screen button:hover {
+    background-color: #1b8d21;
+}
+
+#disclaimer{
+    position: fixed;
+    bottom: 20px;
+    width: 95%;
+    background-color: #faed79;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    z-index: 999;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    
+}
+#description{
+    position: fixed;
+    top: 20px;
+    width: 95%;
+    background-color: #e4ef83;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: bold;
+    z-index: 999;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+#drop{
+    background-color: #ffffff;
+    width:auto;
+    z-index: 20;
+    border-radius: 15px;
+    
+}
+
+.learn_more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #e86c0d;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.learn_more:hover {
+    background-color: #972407;
+}
