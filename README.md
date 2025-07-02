@@ -1,0 +1,1 @@
+# Potato_Diseases_Detection_Uisng_CNN
